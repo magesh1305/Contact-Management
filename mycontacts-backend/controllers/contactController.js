@@ -13,7 +13,7 @@ const getContacts = (req, res) => {
 //@access public
 
 const createContact = (req, res) => {
-  res.status(201).json({ message: "Create contacts" });
+  res.status(201).json({ message: "Create contact" });
 };
 
 //@desc get contact
@@ -21,7 +21,7 @@ const createContact = (req, res) => {
 //@access public
 
 const getContact = (req, res) => {
-  res.status(200).json({ message: `Get contacts for ${req.params.id}` });
+  res.status(200).json({ message: `Get contact for ${req.params.id}` });
 };
 
 //@desc update contact
@@ -29,7 +29,7 @@ const getContact = (req, res) => {
 //@access public
 
 const updateContact = (req, res) => {
-  res.status(200).json({ message: `Update contacts for ${req.params.id}` });
+  res.status(200).json({ message: `Update contact for ${req.params.id}` });
 };
 
 //@desc delete contact
@@ -37,7 +37,7 @@ const updateContact = (req, res) => {
 //@access public
 
 const deleteContact = (req, res) => {
-  res.status(200).json({ message: `Delete contacts ${req.params.id}` });
+  res.status(200).json({ message: `Delete contact ${req.params.id}` });
 };
 
 module.exports = {
