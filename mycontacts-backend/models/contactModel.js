@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-//Create a constant fpe contact scheme which will have value
+//Create a constant for contact scheme which will have value
 
 const contactScheme = mongoose.Schema(
   {
